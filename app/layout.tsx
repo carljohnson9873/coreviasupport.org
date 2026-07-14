@@ -20,7 +20,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://coreviasupport.com"),
+  metadataBase: new URL("https://coreviasupport.org"),
 
   title: {
     default:
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
       "CoreViaSupport | Promotional Products Operations Support",
     description:
       "A specialized operations partner for promotional product distributors across the USA and UK.",
-    url: "https://coreviasupport.com",
+    url: "https://coreviasupport.org",
     siteName: "CoreViaSupport",
     locale: "en_US",
     type: "website",
@@ -120,9 +120,9 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "CoreViaSupport",
-  url: "https://coreviasupport.com",
-  logo: "https://coreviasupport.com/logo/coreviasupport-logo.png",
-  email: "info@coreviasupport.com",
+  url: "https://coreviasupport.org",
+  logo: "https://coreviasupport.org/logo/coreviasupport-logo.png",
+  email: "info@coreviasupport.org",
   telephone: "+91-82099-12773",
   description:
     "Specialized operational support for promotional product distributors across the USA and UK.",

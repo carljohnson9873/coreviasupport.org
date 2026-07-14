@@ -118,11 +118,11 @@ export default function Footer() {
 
             <div className="mt-5 space-y-4 text-[14px] text-[#6A625C]">
               <a
-                href="mailto:info@coreviasupport.com"
+                href="mailto:info@coreviasupport.org"
                 className="flex items-center gap-3 no-underline hover:text-[#C21E3A]"
               >
                 <Mail size={17} className="shrink-0 text-[#C21E3A]" />
-                info@coreviasupport.com
+                info@coreviasupport.org
               </a>
 
               <a

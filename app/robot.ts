@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
       disallow: ["/api/", "/_next/"],
     },
 
-    sitemap: "https://coreviasupport.com/sitemap.xml",
-    host: "https://coreviasupport.com",
+    sitemap: "https://coreviasupport.org/sitemap.xml",
+    host: "https://coreviasupport.org",
   };
 }

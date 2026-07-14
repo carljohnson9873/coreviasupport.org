@@ -20,8 +20,8 @@ const contactDetails = [
   {
     icon: Mail,
     title: "Email",
-    value: "info@coreviasupport.com",
-    href: "mailto:info@coreviasupport.com",
+    value: "info@coreviasupport.org",
+    href: "mailto:info@coreviasupport.org",
   },
   {
     icon: Phone,
