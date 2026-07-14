@@ -5,6 +5,7 @@ import "./globals.css";
 import FloatingButtons from "@/components/FloatingButtons";
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import MicrosoftClarity from "@/components/MicrosoftClarity";
 import Navbar from "@/components/Navbar";
 
 const inter = Inter({
@@ -159,6 +160,7 @@ export default function RootLayout({
     >
       <body>
         <GoogleAnalytics />
+        <MicrosoftClarity />
 
         <script
           type="application/ld+json"
