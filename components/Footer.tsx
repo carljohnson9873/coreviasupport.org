@@ -72,7 +72,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/in/carljohnson-corevia/"
                 aria-label="LinkedIn"
                 className="flex h-10 w-10 items-center justify-center rounded-xl border border-[#E7DDD8] bg-white text-[#C21E3A] hover:bg-[#C21E3A] hover:text-white"
               >
