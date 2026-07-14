@@ -4,6 +4,7 @@ import "./globals.css";
 
 import FloatingButtons from "@/components/FloatingButtons";
 import Footer from "@/components/Footer";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Navbar from "@/components/Navbar";
 
 const inter = Inter({
@@ -23,8 +24,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://coreviasupport.org"),
 
   title: {
-    default:
-      "CoreViaSupport | Promotional Products Operations Support",
+    default: "CoreViaSupport | Promotional Products Operations Support",
     template: "%s | CoreViaSupport",
   },
 
@@ -61,8 +61,7 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title:
-      "CoreViaSupport | Promotional Products Operations Support",
+    title: "CoreViaSupport | Promotional Products Operations Support",
     description:
       "A specialized operations partner for promotional product distributors across the USA and UK.",
     url: "https://coreviasupport.org",
@@ -81,8 +80,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title:
-      "CoreViaSupport | Promotional Products Operations Support",
+    title: "CoreViaSupport | Promotional Products Operations Support",
     description:
       "A specialized operations partner for promotional product distributors across the USA and UK.",
     images: ["/og-image.png"],
@@ -160,6 +158,8 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body>
+        <GoogleAnalytics />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
