@@ -98,14 +98,6 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-
-  category: "business",
-
-  icons: {
-    icon: "/logo/coreviasupport-logo.png",
-    shortcut: "/logo/coreviasupport-logo.png",
-    apple: "/logo/coreviasupport-logo.png",
-  },
 };
 
 export const viewport: Viewport = {
