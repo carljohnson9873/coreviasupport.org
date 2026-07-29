@@ -8,6 +8,8 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 import MicrosoftClarity from "@/components/MicrosoftClarity";
 import Navbar from "@/components/Navbar";
 
+const siteUrl = "https://coreviasupport.org";
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -22,35 +24,23 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://coreviasupport.org"),
+  metadataBase: new URL(siteUrl),
 
   title: {
-    default: "CoreViaSupport | Promotional Products Operations Support",
+    default:
+      "Operations Support for Promotional Product Companies | CoreViaSupport",
     template: "%s | CoreViaSupport",
   },
 
   description:
-    "Specialized operational support for promotional product distributors across the USA and UK, including order management, artwork coordination, product research, customer support, bookkeeping, and supplier communication.",
+    "CoreViaSupport provides cost-effective operations support for promotional product companies, ASI and SAGE distributors, print shops, and merchandise businesses across the United States.",
 
-  keywords: [
-    "promotional products operations support",
-    "promotional product distributors",
-    "order management services",
-    "artwork coordination",
-    "product research",
-    "presentation creation",
-    "customer support",
-    "bookkeeping support",
-    "supplier coordination",
-    "vendor management",
-    "promotional products USA",
-    "promotional products UK",
-    "CoreViaSupport",
-  ],
+  applicationName: "CoreViaSupport",
 
   authors: [
     {
       name: "CoreViaSupport",
+      url: siteUrl,
     },
   ],
 
@@ -62,29 +52,31 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "CoreViaSupport | Promotional Products Operations Support",
+    title:
+      "Operations Support for Promotional Product Companies | CoreViaSupport",
     description:
-      "A specialized operations partner for promotional product distributors across the USA and UK.",
-    url: "https://coreviasupport.org",
+      "Flexible back-office and operations support for promotional product companies, distributors, print shops, and merchandise businesses across the United States.",
+    url: siteUrl,
     siteName: "CoreViaSupport",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://coreviasupport.org/og-image.png",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "CoreViaSupport promotional products operations support",
+        alt: "CoreViaSupport operations support for promotional product companies",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "CoreViaSupport | Promotional Products Operations Support",
+    title:
+      "Operations Support for Promotional Product Companies | CoreViaSupport",
     description:
-      "A specialized operations partner for promotional product distributors across the USA and UK.",
-    images: ["https://coreviasupport.org/og-image.png"],
+      "Flexible back-office and operations support for promotional product companies across the United States.",
+    images: ["/og-image.png"],
   },
 
   robots: {
@@ -98,6 +90,8 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
+
+  category: "Business Services",
 };
 
 export const viewport: Viewport = {
@@ -110,33 +104,48 @@ export const viewport: Viewport = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": `${siteUrl}/#organization`,
   name: "CoreViaSupport",
-  url: "https://coreviasupport.org",
-  logo: "https://coreviasupport.org/logo/coreviasupport-logo.png",
+  url: siteUrl,
+  logo: {
+    "@type": "ImageObject",
+    url: `${siteUrl}/logo/coreviasupport-logo.png`,
+  },
+  image: `${siteUrl}/og-image.png`,
   email: "info@coreviasupport.org",
   telephone: "+91-82099-12773",
   description:
-    "Specialized operational support for promotional product distributors across the USA and UK.",
-  areaServed: [
-    {
-      "@type": "Country",
-      name: "United States",
-    },
-    {
-      "@type": "Country",
-      name: "United Kingdom",
-    },
+    "CoreViaSupport provides operations support for promotional product companies, ASI and SAGE distributors, print shops, and branding merchandise businesses serving the United States.",
+  areaServed: {
+    "@type": "Country",
+    name: "United States",
+  },
+  sameAs: [
+    "https://www.linkedin.com/in/carl-johnson-5907893b6/",
   ],
-  serviceType: [
-    "Order Management",
-    "Artwork Services",
-    "Product Research",
-    "Presentation Creation",
-    "Customer Support",
+  knowsAbout: [
+    "Promotional product operations support",
+    "Order management",
+    "Sales order creation",
+    "Purchase order creation",
+    "Artwork services",
+    "Proof management",
+    "Product research",
+    "Presentation creation",
+    "Customer support",
     "Bookkeeping",
-    "Supplier Coordination",
-    "Hybrid Operations Support",
+    "Vendor coordination",
+    "Production follow-up",
+    "Shipping tracking",
   ],
+  contactPoint: {
+    "@type": "ContactPoint",
+    email: "info@coreviasupport.org",
+    telephone: "+91-82099-12773",
+    contactType: "customer support",
+    areaServed: "US",
+    availableLanguage: ["English"],
+  },
 };
 
 export default function RootLayout({
@@ -146,7 +155,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="en-US"
       className={`${inter.variable} ${poppins.variable}`}
       suppressHydrationWarning
     >
@@ -157,7 +166,7 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(organizationSchema),
+            __html: JSON.stringify(organizationSchema).replace(/</g, "\\u003c"),
           }}
         />
 
