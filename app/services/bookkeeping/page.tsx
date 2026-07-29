@@ -12,18 +12,18 @@ export default function BookkeepingPage() {
   return (
     <ServicePageTemplate
       eyebrow="Bookkeeping"
-      title="Organized financial records that support better operational visibility."
-      introduction="CoreViaSupport handles routine bookkeeping and record-management responsibilities, helping invoices, transactions, payment follow-ups, and reconciliations remain organized."
+      title="Bookkeeping Services for Promotional Product Companies"
+      introduction="CoreViaSupport provides bookkeeping support for promotional product companies by organizing invoices, payments, reconciliations, financial records, and routine administrative accounting tasks to keep business operations running efficiently."
       icon={Calculator}
-      visualTitle="Keep routine financial administration accurate and current."
+      visualTitle="Organized financial records that support daily business operations."
       visualPoints={[
         "Invoice tracking",
         "Expense recording",
         "Payment follow-up",
         "Reconciliation support",
       ]}
-      visualSummary="Routine financial records remain organized, updated, and easier to review."
-      deliverablesTitle="Bookkeeping support for everyday financial administration."
+      visualSummary="Maintain accurate bookkeeping records, invoice tracking, and payment coordination without increasing administrative workload."
+      deliverablesTitle="Bookkeeping services included in your operational support."
       deliverablesDescription="The service scope is aligned with your accounting software, reporting requirements, transaction volume, and internal review procedures."
       deliverables={[
         "Invoice record maintenance",
@@ -35,7 +35,7 @@ export default function BookkeepingPage() {
         "Supporting-document organization",
         "Periodic reporting support",
       ]}
-      outcomesTitle="More organized records and fewer administrative gaps."
+      outcomesTitle="Benefits of outsourcing bookkeeping support."
       outcomes={[
         {
           icon: ReceiptText,

@@ -12,18 +12,18 @@ export default function ResearchPage() {
   return (
     <ServicePageTemplate
       eyebrow="Research & Presentations"
-      title="Stronger product recommendations prepared for faster client response."
-      introduction="CoreViaSupport supports your sales team with structured product sourcing, supplier comparison, pricing research, alternative recommendations, and client-ready presentations."
+      title="Product Research for Promotional Product Companies"
+      introduction="CoreViaSupport helps promotional product companies identify the right products, suppliers, pricing, and presentation materials. We conduct product research, supplier comparisons, pricing analysis, and create professional client presentations that support faster sales decisions."
       icon={FileSearch}
-      visualTitle="Turn customer requirements into relevant product options."
+      visualTitle="Research that helps promotional product companies quote with confidence."
       visualPoints={[
         "Product sourcing",
         "Supplier comparison",
         "Pricing review",
         "Presentation support",
       ]}
-      visualSummary="Relevant products, pricing, suppliers, and presentation details are organized in one sales-ready output."
-      deliverablesTitle="Research support designed around client opportunities."
+      visualSummary="Product sourcing, supplier comparisons, pricing research, and presentation preparation—all managed by one dedicated support team."
+      deliverablesTitle="Research and presentation services included in your support."
       deliverablesDescription="Research is aligned with budget, quantity, branding, delivery requirements, supplier availability, and presentation standards."
       deliverables={[
         "Requirement review",
@@ -35,7 +35,7 @@ export default function ResearchPage() {
         "Quote-support preparation",
         "Client presentation creation",
       ]}
-      outcomesTitle="Respond faster with more relevant product recommendations."
+      outcomesTitle="Benefits of outsourcing product research."
       outcomes={[
         {
           icon: SearchCheck,

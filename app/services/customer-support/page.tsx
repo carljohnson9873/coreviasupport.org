@@ -12,18 +12,18 @@ export default function CustomerSupportPage() {
   return (
     <ServicePageTemplate
       eyebrow="Customer Support"
-      title="Professional customer communication throughout the order lifecycle."
-      introduction="CoreViaSupport helps distributors maintain responsive customer communication, timely order updates, organized follow-ups, and professional issue coordination."
+      title="Customer Support for Promotional Product Companies"
+      introduction="CoreViaSupport delivers responsive customer support for promotional product companies by handling customer communication, order updates, follow-ups, issue resolution, and coordination throughout the order lifecycle."
       icon={Headset}
-      visualTitle="Keep customers informed without distracting your sales team."
+      visualTitle="Professional customer communication that strengthens relationships."
       visualPoints={[
         "Customer emails",
         "Order updates",
         "Follow-up management",
         "Issue coordination",
       ]}
-      visualSummary="Customers receive clear, professional communication while internal teams retain visibility."
-      deliverablesTitle="Communication support across routine customer requirements."
+      visualSummary="Keep customers informed with timely updates, proactive communication, and dependable follow-up throughout every order."
+      deliverablesTitle="Customer support services included in your operations support."
       deliverablesDescription="Coverage is aligned with your preferred tone, communication channels, escalation process, and service standards."
       deliverables={[
         "Shared-inbox support",
@@ -35,7 +35,7 @@ export default function CustomerSupportPage() {
         "Internal escalation",
         "Post-delivery follow-up",
       ]}
-      outcomesTitle="Better communication without increasing internal workload."
+      outcomesTitle="Benefits of outsourcing promotional product customer support."
       outcomes={[
         {
           icon: MessagesSquare,

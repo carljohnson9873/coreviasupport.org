@@ -12,18 +12,18 @@ export default function OrderManagementPage() {
   return (
     <ServicePageTemplate
       eyebrow="Order Management"
-      title="Reliable order coordination from confirmation through delivery."
-      introduction="CoreViaSupport manages the administrative and communication responsibilities behind promotional product orders so your sales team can remain focused on customers and new opportunities."
+      title="Promotional Product Order Management Services"
+      introduction="CoreViaSupport provides professional order management services for promotional product companies, ASI distributors, SAGE distributors, print shops, and branded merchandise businesses across the United States. We manage order entry, supplier coordination, production follow-up, artwork approvals, shipping updates, and customer communication so your team can focus on sales and business growth."
       icon={PackageCheck}
-      visualTitle="Keep every order organized, visible, and moving forward."
+      visualTitle="Complete order management support for promotional product companies."
       visualPoints={[
         "Order entry",
         "Supplier follow-up",
         "Production updates",
         "Shipping visibility",
       ]}
-      visualSummary="One point of operational coordination across customers, suppliers, production, and delivery."
-      deliverablesTitle="Daily responsibilities required to keep orders progressing."
+      visualSummary="Dedicated order management specialists who coordinate every stage of the promotional product order lifecycle—from customer confirmation to final delivery."
+      deliverablesTitle="Order management services included in your operational support package."
       deliverablesDescription="The exact scope is aligned with your systems, supplier network, order volume, and internal operating procedures."
       deliverables={[
         "Sales order creation",
@@ -35,7 +35,7 @@ export default function OrderManagementPage() {
         "Shipping coordination",
         "Customer status updates",
       ]}
-      outcomesTitle="Stronger execution without increasing administrative pressure."
+      outcomesTitle="Benefits of outsourcing promotional product order management."
       outcomes={[
         {
           icon: ClipboardCheck,

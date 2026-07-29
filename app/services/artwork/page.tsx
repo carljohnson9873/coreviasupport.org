@@ -12,18 +12,18 @@ export default function ArtworkPage() {
   return (
     <ServicePageTemplate
       eyebrow="Artwork Services"
-      title="Organized artwork coordination from initial proof to final approval."
-      introduction="CoreViaSupport manages proof communication, revisions, approvals, supplier follow-up, and final-file coordination so artwork does not become a bottleneck."
+      title="Artwork Services for Promotional Products"
+      introduction="CoreViaSupport provides professional artwork services for promotional product companies, ASI distributors, SAGE distributors, print shops, and branded merchandise businesses across the United States. We coordinate artwork files, proof approvals, revisions, supplier communication, and production-ready files to keep every order moving smoothly."
       icon={Palette}
-      visualTitle="Keep artwork communication clear and production-ready."
+      visualTitle="Professional artwork coordination from design to final approval."
       visualPoints={[
         "Proof coordination",
         "Revision tracking",
         "Approval follow-up",
         "Supplier communication",
       ]}
-      visualSummary="Artwork responsibilities remain documented, visible, and aligned across customers and suppliers."
-      deliverablesTitle="Artwork support across every approval requirement."
+      visualSummary="We manage artwork reviews, proof approvals, revisions, and supplier communication to ensure production begins without unnecessary delays."
+      deliverablesTitle="Artwork management services included in your operational support."
       deliverablesDescription="Coverage is aligned with your customer expectations, supplier requirements, artwork procedures, and communication tools."
       deliverables={[
         "Artwork file review",
@@ -35,7 +35,7 @@ export default function ArtworkPage() {
         "Final-file coordination",
         "Artwork record maintenance",
       ]}
-      outcomesTitle="Faster approvals and fewer communication gaps."
+      outcomesTitle="Benefits of outsourcing promotional product artwork services."
       outcomes={[
         {
           icon: FileCheck2,

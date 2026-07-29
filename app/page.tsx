@@ -164,16 +164,18 @@ export default function HomePage() {
               </div>
 
               <h1 className="max-w-4xl">
-                The operations team behind growing promotional product
-                distributors.
+                Operations Support for Promotional Product Companies That Want to
+                Scale Faster
               </h1>
 
               <p className="section-copy">
-                CoreViaSupport becomes an extension of your business by managing
+                CoreViaSupport provides dedicated operations support for promotional
+                product companies, ASI distributors, SAGE distributors, print shops,
+                and branded merchandise businesses across the United States. We manage
                 order coordination, supplier communication, artwork approvals,
-                product research, production follow-up, bookkeeping, and
-                customer communication—so your sales team can stay focused on
-                growth.
+                product research, production follow-up, bookkeeping, and customer
+                support so your team can focus on sales, client relationships, and
+                business growth.
               </p>
 
               <div className="mt-9 flex flex-wrap gap-4">
@@ -288,8 +290,8 @@ export default function HomePage() {
               <div className="section-kicker">Who We Support</div>
 
               <h2 className="max-w-xl">
-                Built exclusively around branded merchandise and promotional
-                products operations.
+                Operations support tailored for promotional product companies and
+                distributors.
               </h2>
 
               <p className="section-copy">
@@ -424,7 +426,8 @@ export default function HomePage() {
               <div className="section-kicker">Core Capabilities</div>
 
               <h2 className="max-w-3xl">
-                Specialist support across the complete distributor lifecycle.
+                 Complete operations support services for promotional product
+                 companies.
               </h2>
 
               <p className="section-copy">

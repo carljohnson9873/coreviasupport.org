@@ -11,18 +11,18 @@ export default function HybridSupportPage() {
   return (
     <ServicePageTemplate
       eyebrow="Hybrid Operations Support"
-      title="Multiple operational functions managed through one coordinated team."
-      introduction="Hybrid Operations Support combines selected service areas into one structured engagement, giving distributors broader operational coverage without managing separate providers."
+      title="Back Office Support for Promotional Product Companies"
+      introduction="CoreViaSupport combines multiple operational services into one flexible back-office support solution for promotional product companies. From order management and artwork coordination to customer support and bookkeeping, we become an extension of your team."
       icon={UsersRound}
-      visualTitle="Build a support structure around your actual operating needs."
+      visualTitle="One dedicated team managing your complete back-office operations."
       visualPoints={[
         "Combined services",
         "Defined ownership",
         "Flexible allocation",
         "Central communication",
       ]}
-      visualSummary="Several operational responsibilities are managed through one coordinated support structure."
-      deliverablesTitle="A flexible combination of operational capabilities."
+      visualSummary="Combine multiple operational functions under one experienced support team with flexible monthly service packages."
+      deliverablesTitle="Back-office support services tailored to your business."
       deliverablesDescription="The final scope is tailored around workload, priorities, systems, communication requirements, and the functions your internal team wants to delegate."
       deliverables={[
         "Order-management support",
@@ -34,7 +34,7 @@ export default function HybridSupportPage() {
         "Bookkeeping support",
         "Central progress reporting",
       ]}
-      outcomesTitle="Broader operational coverage with one accountable support team."
+      outcomesTitle="Benefits of outsourcing complete back-office operations."
       outcomes={[
         {
           icon: Layers3,
