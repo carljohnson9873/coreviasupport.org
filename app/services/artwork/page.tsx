@@ -61,3 +61,12 @@ export default function ArtworkPage() {
     />
   );
 }
+
+import { createServiceMetadata } from "@/lib/seo";
+
+export const metadata = createServiceMetadata({
+  title: "Artwork Services for Promotional Products",
+  description:
+    "Professional promotional product artwork support, including artwork coordination, proof management, revisions, approval tracking, supplier communication, and production-ready file assistance.",
+  slug: "artwork",
+});

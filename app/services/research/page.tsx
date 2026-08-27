@@ -61,3 +61,12 @@ export default function ResearchPage() {
     />
   );
 }
+
+import { createServiceMetadata } from "@/lib/seo";
+
+export const metadata = createServiceMetadata({
+  title: "Product Research for Promotional Product Companies",
+  description:
+    "Product research and presentation support for promotional product companies, including sourcing, supplier comparisons, pricing research, recommendations, and client-ready presentations.",
+  slug: "research",
+});

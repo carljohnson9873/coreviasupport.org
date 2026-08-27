@@ -134,7 +134,7 @@ export default function PricingPage() {
 
                   <div className="text-right">
                     <p className="text-[27px] font-bold text-[#201A16]">
-                      $1,499
+                      $1,199
                     </p>
 
                     <p className="mt-1 text-[12px] text-[#6A625C]">
@@ -156,7 +156,7 @@ export default function PricingPage() {
 
                   <div className="text-right">
                     <p className="text-[27px] font-bold text-[#201A16]">
-                      $750
+                      $500
                     </p>
 
                     <p className="mt-1 text-[12px] text-[#6A625C]">

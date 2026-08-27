@@ -60,3 +60,12 @@ export default function HybridSupportPage() {
     />
   );
 }
+
+import { createServiceMetadata } from "@/lib/seo";
+
+export const metadata = createServiceMetadata({
+  title: "Back Office Support for Promotional Product Companies",
+  description:
+    "Flexible back-office support combining order management, artwork coordination, customer support, product research, bookkeeping, and operational administration.",
+  slug: "hybrid-support",
+});

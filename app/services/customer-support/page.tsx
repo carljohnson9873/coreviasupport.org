@@ -61,3 +61,12 @@ export default function CustomerSupportPage() {
     />
   );
 }
+
+import { createServiceMetadata } from "@/lib/seo";
+
+export const metadata = createServiceMetadata({
+  title: "Customer Support for Promotional Product Companies",
+  description:
+    "Customer support services for promotional product companies, including order updates, customer follow-ups, issue coordination, status communication, and order lifecycle assistance.",
+  slug: "customer-support",
+});

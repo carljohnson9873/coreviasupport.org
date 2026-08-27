@@ -54,10 +54,17 @@ export default function ServicePageTemplate({
 
               <p className="section-copy">{introduction}</p>
 
-              <Link href="/services" className="secondary-button mt-8">
-                View All Services
-                <ArrowRight size={17} />
-              </Link>
+              <div className="mt-8 flex flex-wrap gap-4">
+                <Link href="/contact" className="primary-button">
+                  Schedule a Consultation
+                  <ArrowRight size={17} />
+                </Link>
+
+                <Link href="/services" className="secondary-button">
+                  View All Services
+                  <ArrowRight size={17} />
+                </Link>
+              </div>
             </div>
 
             <div className="relative overflow-hidden rounded-[28px] bg-[#201A16] p-7 text-white shadow-[0_24px_60px_rgba(32,26,22,0.17)]">
@@ -164,26 +171,41 @@ export default function ServicePageTemplate({
             })}
           </div>
 
-          <div className="mt-12 flex items-center justify-between gap-6 rounded-2xl border border-[#E7DDD8] bg-white px-6 py-5">
-            <div className="flex items-center gap-3">
-              <CheckCircle2
-                size={20}
-                className="shrink-0 text-[#C21E3A]"
-              />
+          <div className="mt-12 rounded-[24px] border border-[#E7DDD8] bg-white px-6 py-7 sm:px-8">
+            <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+              <div className="flex max-w-3xl items-start gap-3">
+                <CheckCircle2
+                  size={22}
+                  className="mt-1 shrink-0 text-[#C21E3A]"
+                />
 
-              <p className="text-[14px] font-medium text-[#514A45]">
-                Detailed workflow, systems, responsibilities, and coverage are
-                discussed during the consultation.
-              </p>
+                <div>
+                  <h3 className="!text-[18px]">
+                    Support built around your workflow
+                  </h3>
+
+                  <p className="mt-2 text-[14px] leading-7 text-[#514A45]">
+                    Every promotional product business operates differently.
+                    During your consultation, we review your current systems,
+                    supplier relationships, order volume, responsibilities, and
+                    coverage requirements to create a support plan that fits
+                    your business.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex shrink-0 flex-wrap gap-3">
+                <Link href="/contact" className="primary-button">
+                  Get Started
+                  <ArrowRight size={17} />
+                </Link>
+
+                <Link href="/services" className="secondary-button">
+                  Other Services
+                  <ArrowRight size={17} />
+                </Link>
+              </div>
             </div>
-
-            <Link
-              href="/services"
-              className="hidden shrink-0 items-center gap-2 text-[14px] font-semibold text-[#C21E3A] no-underline sm:inline-flex"
-            >
-              Other services
-              <ArrowRight size={16} />
-            </Link>
           </div>
         </div>
       </section>

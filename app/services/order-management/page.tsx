@@ -61,3 +61,12 @@ export default function OrderManagementPage() {
     />
   );
 }
+
+import { createServiceMetadata } from "@/lib/seo";
+
+export const metadata = createServiceMetadata({
+  title: "Promotional Product Order Management Services",
+  description:
+    "Professional order management services for promotional product companies, including order entry, supplier coordination, proof tracking, production follow-up, shipping updates, and customer communication.",
+  slug: "order-management",
+});

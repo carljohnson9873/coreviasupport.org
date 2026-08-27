@@ -61,3 +61,12 @@ export default function BookkeepingPage() {
     />
   );
 }
+
+import { createServiceMetadata } from "@/lib/seo";
+
+export const metadata = createServiceMetadata({
+  title: "Bookkeeping Services for Promotional Product Companies",
+  description:
+    "Reliable bookkeeping support for promotional product companies, including invoice organization, payment tracking, reconciliations, financial records, and routine accounting administration.",
+  slug: "bookkeeping",
+});
