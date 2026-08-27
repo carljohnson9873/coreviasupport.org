@@ -5,8 +5,8 @@ import { useMemo, useState } from "react";
 
 const MONTHLY_PRICE_PER_SERVICE = 1199;
 const SETUP_PRICE_PER_SERVICE = 500;
-const MULTI_SERVICE_SETUP_PRICE = 1000;
-const FIRST_CLIENT_DISCOUNT = 30;
+const MULTI_SERVICE_SETUP_PRICE = 750;
+const FIRST_CLIENT_DISCOUNT = 40;
 
 const services = [
   "Order Management",
